@@ -22,7 +22,7 @@ GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 OUTBOUND_TIMEOUT_SECONDS = 20
 MAX_INPUT_CHARS = 4000
-MAX_OUTPUT_TOKENS = 1024
+MAX_OUTPUT_TOKENS = 4096
 TEMPERATURE = 0.7
 ENABLE_STREAMING = False
 
